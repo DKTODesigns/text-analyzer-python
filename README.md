@@ -22,3 +22,7 @@ analyzer = TextAnalyzer(text)
 print(analyzer.fmtText)
 print(analyzer.freqAll())
 print(analyzer.freqOf("lorem"))
+## Example Output
+lorem ipsum dolor diam amet consetetur lorem magna
+{'lorem': 2, 'ipsum': 1, 'dolor': 1, 'diam': 1, 'amet': 1, 'consetetur': 1, 'magna': 1}
+2
